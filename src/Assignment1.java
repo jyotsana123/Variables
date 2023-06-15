@@ -5,15 +5,15 @@ public class Assignment1 {
 	 * inside the static methods, and call two static methods inside the main method
 	 */
 	
-	
+	static Assignment1 assignment = new Assignment1();
 	int a = 100;
 	int b = 200;
 	static int c =4;
 	//public Assignment1 assignment;
 	static void m1()
 	{
-		//assignment = new Assignment1();
-		Assignment1 assignment = new Assignment1();
+		assignment = new Assignment1();
+		//Assignment1 assignment = new Assignment1();
 		System.out.println(assignment.a);
 		System.out.println(assignment.b);
 		//you can access static variable by three ways
